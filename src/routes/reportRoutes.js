@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
   // Generate and render the report
   // Assuming the report data is available
   
-  res.render('report', { title: 'Report', body: 'report'});
+  res.render('layouts/report.ejs', { title: 'Report', body: 'report'});
 });
 
 router.post('/post', (req, res) => {
