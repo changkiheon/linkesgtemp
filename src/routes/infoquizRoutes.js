@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
   console.log('User Agent:', agent.toString());
   console.log(Date() + TAB + req.socket.localAddress + TAB + req.ip + TAB + req.url);
 
-  res.render('layouts/inforegister.ejs', { title: 'info register', body: 'info register Content'});
+  res.render('layouts/infoquiz.ejs', { title: 'info register', body: 'info register Content'});
 });
 
 
